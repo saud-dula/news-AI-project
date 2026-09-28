@@ -1,0 +1,32 @@
+{
+  "accuracy": 1.0,
+  "test_samples": 200,
+  "confusion_matrix": {
+    "REAL": {
+      "REAL": 100,
+      "FAKE": 0
+    },
+    "FAKE": {
+      "REAL": 0,
+      "FAKE": 100
+    }
+  },
+  "per_class": {
+    "REAL": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "FAKE": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "algorithm": "Multinomial Naive Bayes",
+  "total_dataset_samples": 1000,
+  "training_samples_for_evaluation": 800,
+  "random_seed": 42,
+  "dataset_type": "Synthetic educational dataset generated from varied templates",
+  "warning": "This benchmark does not guarantee the same accuracy on real-world news."
+}
